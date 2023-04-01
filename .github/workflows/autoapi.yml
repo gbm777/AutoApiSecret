@@ -22,7 +22,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
     - name: Node
-      uses: node16
+      uses: actions/node@16
     - name: Set up Python #安装python
       uses: actions/setup-python@v1
       with:
