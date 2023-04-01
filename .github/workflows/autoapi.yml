@@ -22,8 +22,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
       uses: actions/setup-node@v3
-        with:
-          node-version: 16
+      with:
+        node-version: 16
       run: npm install -g bats
     - name: Set up Python #安装python
       uses: actions/setup-python@v1
