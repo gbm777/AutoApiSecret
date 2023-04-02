@@ -2,6 +2,7 @@
 name: Auto Api Secret
 
 on: 
+  workflow_call:
   release:
     types: [published]
   push:
